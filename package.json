@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dragonfoxing/kitsubot.git"
+    "url": "git+https://github.com/Dragonfoxing/ts-discordjs-bot-template"
   },
   "author": "dragonfoxing",
-  "license": "ISC",
+  "license": "CC0",
   "bugs": {
-    "url": "https://github.com/Dragonfoxing/kitsubot/issues"
+    "url": "https://github.com/Dragonfoxing/ts-discordjs-bot-template/issues"
   },
-  "homepage": "https://github.com/Dragonfoxing/kitsubot#readme",
+  "homepage": "https://github.com/Dragonfoxing/ts-discordjs-bot-template#readme",
   "dependencies": {
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3"
