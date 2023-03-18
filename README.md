@@ -26,6 +26,8 @@ The prefix will be your chat command prefix.  Be creative.  Do not use "!", "?",
 
 ### Scripts
 
+Don't forget to `npm install` on your first time using this project.
+
 `npm run build` just runs `tsc`.  This will do your type checking and validation.
 `npm run start` starts the server.  There's no nodemon involved, so if it crashes it won't restart.
 
