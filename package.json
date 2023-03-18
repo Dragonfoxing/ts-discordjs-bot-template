@@ -1,0 +1,30 @@
+{
+  "name": "ts-discordjs-bot-template",
+  "version": "1.0.0",
+  "description": "An example for how to set up a discord bot that uses both chat commands and slash commands",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/Bot.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragonfoxing/kitsubot.git"
+  },
+  "author": "dragonfoxing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dragonfoxing/kitsubot/issues"
+  },
+  "homepage": "https://github.com/Dragonfoxing/kitsubot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
