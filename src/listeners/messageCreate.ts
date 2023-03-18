@@ -118,7 +118,7 @@ const handleMessageCommand = async (client: Client, message: Message, command: S
     // Pass in the client (generally useful), message (required? to reply to user), and the arguments as a string.
     // The commands will be expected to parse args out.
 
-    if(slashCommand.runChat) slashCommand.runChat(client, message, args);
+    if(slashCommand.runChat) await slashCommand.runChat(client, message, args);
 
     // runChat is optional, so if it doesn't exist we direct the user to use a slash command instead.
     else message.reply("This command only exists as a slash command.  Please use `/"+command+"`");
