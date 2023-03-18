@@ -13,8 +13,8 @@ It has two commands to demonstrate usage of both slash and chat commands.
 To use this template project, you should know the following:
 - How to set up a Discord application and bot user
 - How to create bot user invite links
-- How to code, build, and run Typescript projects
-- How to use javascript in general
+- Some basic knowledge of Typescript
+- Some basic knowledge of NodeJS & Javascript
 
 This project requires that you add a `.env` file with the following information:
 - `TOKEN=[your token here]`
